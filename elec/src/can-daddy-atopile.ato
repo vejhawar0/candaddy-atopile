@@ -1,2 +1,4 @@
+import STM32F407VGT6 from "STM32F407VGT6.ato"
 module CanDaddyAtopile:
-    signal gnd
+
+    micro = new STM32F407VGT6
