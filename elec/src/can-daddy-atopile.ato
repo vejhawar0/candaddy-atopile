@@ -7,10 +7,6 @@ module CanDaddyAtopile:
     micro = new STM32F407VGT6
     can = new MCP2515
     power3 = new Power
-    power5 = new Power
 
     power3 ~ micro.power
     can.spi ~ micro.spi
-    can.i2c ~ micro.i2c
-
-    
